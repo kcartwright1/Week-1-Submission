@@ -1,0 +1,162 @@
+body{
+  width: 1500px;
+  margin: 0 auto;
+  background-color: #000000;
+  word-wrap: break-word;
+
+ 
+}
+  
+a{
+  color: #090358
+}
+.header {
+float: top;
+background-color: #000000;
+background-image: url("images/blacksnakenice2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: right;
+display: flex;
+gap: 1rem;
+z-index: 1;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  font-family: "Sofia";
+  overflow:hidden;
+  }
+
+.nav {
+background-color: #31f00b;
+display: flex;
+position: top;  
+    align-items: center; 
+    justify-content: space-evenly; 
+    top: 0px; 
+padding-left:30px;
+padding-right:30px;
+gap: 2;
+z-index: 1;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+}
+
+.content{
+  overflow: auto;
+  height: 100%;
+}
+.intro-container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #000000;
+  background-image: url("images/blacksnakenice1.jpg");
+  background-position: center;
+
+ line-height: normal;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+  background-color: #20221f73;
+  font-size: large;
+  width: 800px;
+  height: 500px;
+  float: none;
+  margin: 20px;
+  
+  }
+  .quote{
+    width: 400px;
+    height: 400px;
+    float: none;
+    margin: 20px;
+    
+  }
+
+div.gallery {
+  display: inline-block;
+  flex-wrap: nowrap;
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: auto;
+  justify-content: space-around
+  
+}
+div.gallery:hover {
+  border: 1px solid #08e626;
+}
+
+div.gallery img {
+  width: 275px;
+  height: 250px;
+  vertical-align: text-top;
+}
+
+
+
+div.column {
+display: inline-block;
+flex-wrap: nowrap;
+background-color: hsla(0, 0%, 7%, 0.568);
+width: 320px;
+height: 200px;
+float: none;
+margin: 20px;
+align-items: top;
+text-align: top;
+
+}
+.article-container{
+  background-image: url("images/blacksnakenice1.jpg");
+  background-position: center;
+  line-height: normal;
+}
+h1 {
+font-family: "Sofia", sans-serif;
+color: #08e626;
+}
+
+h2 {
+color: limegreen;
+font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 20px;
+
+}
+
+a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: rgb(128, 0, 117);
+}
+a:hover {
+  color: rgb(250, 26, 149);
+}
+.footer{
+    background-color: #000000;
+    background-image: url("images/blacksnakenice2.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: limegreen;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    overflow:auto;
+  }
+
+  .il{
+    display: inline;
+    padding: 5px;
+   
+  }
